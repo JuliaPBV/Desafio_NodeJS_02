@@ -46,26 +46,26 @@ app.listen(PORT, () => {
 	const dev1 = true;
 	let IMC1 = peso1 / (altura1 * altura1);
 	
-	const nome2 = 'Henrique OLiveira da Silva';
+	const nome2 = 'Henrique OLiveira';
 	const idade2 = 35;
 	const peso2 = 85;
 	const altura2 = 1.80;
-	const dev2 = true;
+	const dev2 = false;
 	let IMC2 = peso2 / (altura2 * altura2);
 	
-	const nome3 = 'Emille Silva';
+	const nome3 = 'Emille Pereira';
 	const idade3 = 25;
 	const peso3 = 75;
 	const altura3 = 1.70;
-	const dev3 = true;
+	const dev3 = false;
 	let IMC3 = peso3 / (altura3 * altura3);
 	
 	const nome4 = 'Karina Alves';
 	const idade4 = 27;
 	const peso4 = 70;
 	const altura4 = 1.70;
-	const dev4 = true;
-    let IMC4 = peso4 / (altura4 * altura4);
+	const dev4 = false;
+    let IMC4  = peso4 / (altura4 * altura4);
 	
 	const somaDasIdades = idade1 + idade2 + idade3 + idade4;
 	console.log('Soma das idades dos Ubuntus:', somaDasIdades);
